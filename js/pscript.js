@@ -2,13 +2,13 @@
 function updateNavbarBrand() {
     const navbarBrand = document.querySelector(".navbar-brand");
     navbarBrand.innerHTML = '<span style="color: red;">Fast</span>DramaHD'; // Update brand text with HTML
-    navbarBrand.href = "#dynamic-home"; // Update brand link
+    navbarBrand.href = "https://www.fastdramahd.com/"; // Update brand link
 }
 
 // Function to dynamically update header links
 function updateHeaderLinks() {
     const headerLinks = [
-        { text: "Home", href: "#home" },
+        { text: "Home", href: "https://www.fastdramahd.com/" },
         { text: "About", href: "#about" },
         { text: "Docs", href: "#docs" },
         { text: "Terms", href: "#terms" },
@@ -29,7 +29,7 @@ function updateHeaderLinks() {
 // Function to dynamically update footer links
 function updateFooterLinks() {
     const footerLinks = [
-        { text: "Home", href: "#home" },
+        { text: "Home", href: "https://www.fastdramahd.com/" },
         { text: "About", href: "#about" },
         { text: "Docs", href: "#docs" },
         { text: "Terms", href: "#terms" },
@@ -49,7 +49,7 @@ function updateHorizontalDiv() {
     const dynamicDiv = document.getElementById("dynamicDiv");
     dynamicDiv.innerHTML = `
         <i class="fas fa-heart"></i> <!-- Optional: Change the icon -->
-        <span>This content is updated dynamically!</span>
+        <span>If Any Watch or Download Link is Not Work Then Report it!</span>
     `;
 }
 
