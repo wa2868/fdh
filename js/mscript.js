@@ -281,7 +281,7 @@ let allPosts = [
     { title: "The Sound of Magic (Season 1)", tags: ["Documentary", "Short"], img: "https://i.ibb.co/VB61Vww/The-Sound-of-Magic.png" },
     { title: "Fantastic (2016) (Season 1)", tags: ["Comedy", "Romance", "Drama", "Medical"], img: "https://i.ibb.co/S5FYY9q/Fantastic.png" },
     { title: "My Name (Season 1)", tags: ["Action", "Crime", "Drama", "Mystery", "Thriller"], img: "https://i.ibb.co/sP03ZwR/My-Name-S01.jpg" },
-    { title: "Soundtrack #1 (Season 1)", tags: ["Drama", "Music", "Romance"], img: "https://i.ibb.co/GkRYpNn/Soundtrack.png" },
+    { title: "Soundtrack No1 (Season 1)", tags: ["Drama", "Music", "Romance"], img: "https://i.ibb.co/GkRYpNn/Soundtrack.png" },
     { title: "Beyond Goodbye (Season 1)", tags: ["Drama", "Romance"], img: "https://i.ibb.co/fN15Vzj/Beyond-Goodbye-S01.jpg" },
     { title: "Signs (Season 1)", tags: ["Drama", "Mystery", "Sci-Fi", "Thriller"], img: "https://i.ibb.co/9cgfNYg/Signs.png" },
     { title: "Alice in Borderland (Season 1)", tags: ["Drama", "Mystery", "Sci-Fi", "Thriller"], img: "https://i.ibb.co/rvhrWXj/Alice-in-Borderland-S01.jpg" },
