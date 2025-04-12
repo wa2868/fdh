@@ -390,7 +390,7 @@ let allPosts = [
                     postDiv.innerHTML = `
                         <div class="post">
                             <img src="${post.img}" alt="${post.title}" onclick="openPostInNewTab('${post.title}')">
-                            <h2 onclick="openPostInNewTab('${post.title}')">${post.title} Hindi Dubbed WEB-DL 720p-HD [K-Drama Series] [Season 1 All Episodes]</h2>
+                            <h2 onclick="openPostInNewTab('${post.title}')">${post.title} Hindi Dubbed WEB-DL 720p-HD [K-Drama Series] [All Episodes]</h2>
                             <button class="btn btn-primary" onclick="openPostInNewTab('${post.title}')">Watch Now</button>
                             ${downloadEnabled ? `<button class="btn btn-success download-btn" onclick="downloadPost('${post.title}')">Download</button>` : ''}
                             <p class="tags">Tags: ${post.tags.map(tag => `<span onclick="filterByTag('${tag}')">${tag}</span>`).join(", ")}</p>
