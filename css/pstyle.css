@@ -250,7 +250,7 @@ footer .copyright {
     }
 
     .main-pd {
-        margin-left: 0; /* Remove left margin in mobile view */
+        margin-left: 0px; /* Remove left margin in mobile view */
     }
 
     .sidebar {
