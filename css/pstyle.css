@@ -124,15 +124,18 @@ header {
 
 .ss-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); /* 2 columns on desktop, 1 on mobile */
-    gap: 10px; /* Space between images */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* 1 column on small screens, auto-fit on larger */
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box; /* Prevent padding from causing overflow */
 }
 
 .ss-gallery img {
-    max-width: 100%;
+    width: 100%; /* Fill the grid column */
+    height: auto; /* Maintain aspect ratio */
     border-radius: 10px;
-    display: block;   /* Make the image a block element */
-    margin: 0 auto;   /* Center the image horizontally if needed */
+    display: block;
+    object-fit: cover;
 }
 
 .main-h2 h2 {
