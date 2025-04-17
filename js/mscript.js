@@ -421,7 +421,7 @@ let allPosts = [
             // Open Post in New Tab
             function openPostInNewTab(title) {
                 let formattedTitle = title.replace(/\s+/g, '-');
-                window.open(`/p/${formattedTitle}.html`, '_blank');
+                window.open(`/p/${formattedTitle}.html`, '');  //_blank
             }
     
             // Download Post
