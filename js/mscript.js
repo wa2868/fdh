@@ -421,13 +421,13 @@ let allPosts = [
             // Open Post in New Tab
             function openPostInNewTab(title) {
                 let formattedTitle = title.replace(/\s+/g, '-');
-                window.open(`/p/${formattedTitle}.html`, '');  //_blank
+                window.open(`/p/${formattedTitle}.html`, '_self');  //_blank
             }
     
             // Download Post
             function downloadPost(title) {
                 let formattedTitle = title.replace(/\s+/g, '-');
-                window.open(`/d/${formattedTitle}`, '_blank');
+                window.open(`/d/${formattedTitle}`, '_self');
             }
     
             // Toggle Download Button
