@@ -1,4 +1,10 @@
 let allPosts = [
+    { title: "Weak Hero (Season02)", tags: ["Action", "Drama", "Thriller"], img: "https://i.ibb.co/v6zdqwSz/Weak-Hero-S02.jpg" },
+    { title: "Dream Garden (Season01)", tags: ["Drama", "Romance", "Thriller"], img: "https://i.ibb.co/hRKw0rSK/Dream-Garden-S01.jpg" },
+    { title: "Mr Insomnia Waiting For Love (Season01)", tags: ["Romance"], img: "https://i.ibb.co/LdngfqTh/Mr-Insomnia-Waiting-For-Love-S01.jpg" },
+    { title: "My Dear Lady (Season01)", tags: ["Comedy", "Drama", "Romance"], img: "https://i.ibb.co/2XSc7vg/My-Dear-Lady-S01.jpg" },
+    { title: "My Roommate Ghost Diva (Season01)", tags: ["Music", "Romance", "Supernatural"], img: "https://i.ibb.co/Q7qjGTjN/My-Roommate-Ghost-Diva-S01.jpg" },
+    { title: "Sweet Trap (Season01)", tags: ["Drama"], img: "https://i.ibb.co/DHnBNk3f/Sweet-Trap-S01.jpg" },
     { title: "When I Was the Most Beautiful (Season 1)", tags: ["Drama", "Romance"], img: "https://i.ibb.co/N9vyWnq/When-I-Was-the-Most-Beautiful.png" },
     { title: "When the Phone Rings (Season 1)", tags: ["Short", "Drama", "Thriller"], img: "https://i.ibb.co/G3s5hj3K/When-the-Phone-Rings.jpg" },
     { title: "Stranger (Season 1)", tags: ["Crime", "Drama", "Mystery", "Thriller"], img: "https://i.ibb.co/p3Y08cY/stranger.png" },
